@@ -4,7 +4,7 @@
 
 [^0]: 见[这里](http://vision.stanford.edu/teaching/cs231a_autumn1112/lecture/lecture11_detectors_descriptors_cs231a.pdf)。
 
-对`thorino.jpg`进行Hessian角点检测吧！
+对`thorino.jpg`进行Harris角点检测吧！
 
 角点检测是检测边缘上的角点。
 
@@ -21,7 +21,7 @@ $$
   * $I_y$：应用$y$方向上的Sobel滤波器；
   * $H=\left[\begin{matrix}I_{xx}&I_{xy}\\I_{xy}&I_{yy}\end{matrix}\right]$
 
-在Hessian角点检测中，$\det{H}$将极大点视为j角点。
+在Harris角点检测中，$\det{H}$将极大点视为j角点。
 
 如果中心像素与其$8-$近邻像素相比值最大，则中心像素为极大点。
 
