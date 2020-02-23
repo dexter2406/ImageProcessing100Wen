@@ -1,6 +1,6 @@
 # 问题八十一至九十
 
-## 问题八十一：Hessian角点检测[^0]
+## 问题八十一：Harris角点检测[^0]
 
 [^0]: 见[这里](http://vision.stanford.edu/teaching/cs231a_autumn1112/lecture/lecture11_detectors_descriptors_cs231a.pdf)。
 
